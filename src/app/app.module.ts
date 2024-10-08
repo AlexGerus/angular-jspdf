@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+import { PdfGeneratorComponent } from './pdf-generator/pdf-generator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PdfGeneratorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
