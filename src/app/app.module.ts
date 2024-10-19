@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { PdfGeneratorComponent } from './pdf-generator/pdf-generator.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    PdfGeneratorComponent
+    PdfGeneratorComponent,
   ],
   imports: [
     BrowserModule,

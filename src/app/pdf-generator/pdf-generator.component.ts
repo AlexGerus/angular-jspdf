@@ -12,4 +12,7 @@ export class PdfGeneratorComponent {
   generatePdf() {
     this.pdfService.generatePdf();
   }
+  generateSecondPdf() {
+    this.pdfService.generateSecondPdf();
+  }
 }
